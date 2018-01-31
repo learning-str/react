@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp start",
+    "build": "gulp build",
+    "lint": "eslint src"
+  },
+  "author": "Satoru Osawa",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "eslint": "^4.16.0",
+    "gulp": "^3.9.1",
+    "gulp-sequence": "^1.0.0"
+  }
+}
