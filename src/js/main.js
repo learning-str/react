@@ -1,5 +1,8 @@
+import Class from './module/Class'
+
 function main() {
-  document.getElementById('module').innerHTML = 'hello nodejs'
+  const c = new Class()
+  document.getElementById('module').innerHTML = c.message
 }
 
 main()

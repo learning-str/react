@@ -10,10 +10,17 @@
   "author": "Satoru Osawa",
   "license": "UNLICENSED",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
     "browser-sync": "^2.23.6",
     "del": "^3.0.0",
     "eslint": "^4.16.0",
     "gulp": "^3.9.1",
-    "gulp-sequence": "^1.0.0"
+    "gulp-rollup": "^2.16.2",
+    "gulp-sequence": "^1.0.0",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup-plugin-node-resolve": "^3.0.2"
   }
 }
